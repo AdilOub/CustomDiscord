@@ -1,0 +1,23 @@
+{
+  "name": "customdiscord",
+  "version": "1.0.0",
+  "description": "An attempt to use discord api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aderox/CustomDiscord.git"
+  },
+  "author": "Aderox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aderox/CustomDiscord/issues"
+  },
+  "homepage": "https://github.com/Aderox/CustomDiscord#readme",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "request": "^2.88.2"
+  }
+}
