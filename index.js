@@ -82,13 +82,8 @@ async function getGuildChannel(token, guildID){
     return GuildChannelsJSON;
 }
 
-async function main(){
-
-    let token = await connection();
+async function sendGuildMessage(token){
     let guildList = await getUserGuild(token);
-    console.log(guildList[0].name);
-    console.log("longeur: " + guildList.length);
-
 
     for(let i=0; i<guildList.length; i++){
         console.log("Guild n°" + i + ": " + guildList[i].name);
@@ -128,6 +123,11 @@ async function main(){
         //console.log(json);
     });
 }
+}
+async function main(){
+
+    let token = await connection();
+    await sendGuildMessage(token)
 }
 
 main();
