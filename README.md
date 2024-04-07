@@ -1,2 +1,3 @@
 # CustomDiscord
-An attempt to use discord api
+Minimal discord integration to send message through a terminal
+TODO: recive images (probably download in a folder)
